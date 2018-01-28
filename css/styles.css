@@ -1,0 +1,83 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header {
+  background: linear-gradient(#000000, rgba(0, 0, 0, 0.5));
+  color: #d6d6d6;
+  opacity: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  background: linear-gradient(#726db0, #000000);
+  background-size: cover;
+}
+
+footer {
+  background: linear-gradient(#111111, #000000);
+  color: #d6d6d6;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.content {
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+}
+
+.footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  bottom: 0;
+  color: #d6d6d6;
+
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+
+@media all and (min-width: 768px) {
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+footer {
+  -webkit-order:3;
+  order:3;
+}
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font: 16px Sans-Serif;
+  color: #d6d6d6;
+}
+h1 {
+  margin: 0 0 20px 0;
+}
+p {
+  margin: 0 0 20px 0;
+}
