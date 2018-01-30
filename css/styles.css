@@ -27,6 +27,35 @@ footer {
   width: 100%;
 }
 
+a.button {
+  font-weight: 700;
+  color: #474747;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: linear-gradient(white, #d1d1d1);
+  padding: 15px;
+
+}
+a.button:hover {
+  box-shadow: 0 0 -3px black inset;
+  background: linear-gradient(black, #474747);
+  color: #d6d6d6;
+  transition: 0.7s;
+}
+a.button:active {
+  background: #a2a1a8;
+}
+
+button-circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
 .content {
   flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   padding: 20px;
@@ -53,6 +82,7 @@ footer {
     -webkit-flex: 1 100%;
     flex: 1 100%;
 }
+
 
 .article {
     text-align: left;
