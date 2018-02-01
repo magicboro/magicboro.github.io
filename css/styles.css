@@ -7,25 +7,22 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
-  background: #726DB0;
+  background: #263238;
   background-size: cover;
 }
 
 
 a.button {
-  font: 18px Helvetica;
-  font-weight: bold;
-  color: #010002;
-  text-decoration: none;
-  padding: .8em 1em calc(.8em + 3px);
-  border-radius: 3px;
+  border-radius: 50%;
+	width: 100px;
+	height: 100px;
   background: #009688;
-  padding: 15px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
 
 }
 a.button:hover {
   box-shadow: 0 0 -3px black inset;
-  background: #010002;
+  background: #263238;
   color: #d6d6d6;
   transition: 0.7s;
 }

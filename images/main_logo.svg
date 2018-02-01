@@ -1,0 +1,45 @@
+<svg width="306" height="208" viewBox="0 0 306 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Vector</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(153 298)">
+<g id="Vector" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path1_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path2_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path3_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path4_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path5_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path6_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path7_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path8_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path9_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path10_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path11_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path12_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-153" y="-298" width="306" height="209" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 20.6581 123.636L 131.774 11.8941L 127.079 9.07704L 12.5201 123.636L 20.6581 123.636Z"/>
+<path id="path1_fill" d="M 157.44 135.332L 165.891 126.453L 170.899 114.246L 151.978 132.713C 153.859 133.541 155.679 134.415 157.44 135.332Z"/>
+<path id="path2_fill" d="M 140.225 128.382L 174.655 93.2744L 174.655 85.4494L 133.016 126.453C 135.495 127.033 137.897 127.678 140.225 128.382Z"/>
+<path id="path3_fill" d="M 0.939004 19.4061L 20.3451 0L 12.2071 0L 0.939004 11.268L 0.939004 19.4061Z"/>
+<path id="path4_fill" d="M 0.939004 68.8603L 69.7993 0L 61.6613 0L 0.939004 60.7223L 0.939004 68.8603Z"/>
+<path id="path5_fill" d="M 1.25201 93.5874L 94.5264 0.313001L 94.2134 0L 86.7014 0L 0.939004 85.7624L 0.939004 93.3412L 1.25201 93.5874Z"/>
+<path id="path6_fill" d="M 0.939004 118.315L 114.872 4.38202L 108.924 2.19101L 0.939004 110.802L 0.939004 118.315Z"/>
+<path id="path7_fill" d="M 45.0722 123.636L 146.172 22.5361L 142.103 18.4671L 37.5602 123.636L 45.0722 123.636Z"/>
+<path id="path8_fill" d="M 70.1123 123.636L 158.066 35.0562L 154.623 30.9871L 61.9743 123.636L 70.1123 123.636Z"/>
+<path id="path9_fill" d="M 94.5264 123.636L 166.83 50.7062L 164.639 46.0112L 87.0144 123.636L 94.5264 123.636Z"/>
+<path id="path10_fill" d="M 110.802 123.636L 116.124 123.636C 117.392 123.769 118.644 123.917 119.88 124.079L 173.09 69.7993L 171.838 63.2263L 110.802 123.636Z"/>
+<path id="path11_fill" d="M 44.7592 0L 37.2472 0L 0.939004 36.3082L 0.973575 43.7856L 44.7592 0Z"/>
+<path id="path12_fill" d="M 0 297.351L 116.124 297.351C 187.413 302.496 227.257 201.607 178.476 150.911C 172.727 144.935 165.746 139.657 157.44 135.332C 155.679 134.415 153.859 133.541 151.978 132.713C 148.294 131.089 144.379 129.64 140.225 128.382C 137.897 127.678 135.495 127.033 133.016 126.453C 128.854 125.477 124.477 124.681 119.88 124.079C 118.644 123.917 117.392 123.769 116.124 123.636L 110.802 123.636L 94.5264 123.636L 87.0144 123.636L 70.1123 123.636L 61.9743 123.636L 45.0722 123.636L 37.5602 123.636L 20.6581 123.636L 12.5201 123.636L 0 123.636L 0 297.351Z"/>
+</defs>
+</svg>
