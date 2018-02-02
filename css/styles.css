@@ -14,34 +14,42 @@ body {
 
 a.button {
   border-radius: 50%;
-	width: 100px;
-	height: 100px;
   background: #009688;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
-
+  display: inline-block;
+  padding: 25px;
 }
 a.button:hover {
   box-shadow: 0 0 -3px black inset;
-  background: #263238;
-  color: #d6d6d6;
-  transition: 0.7s;
+  background: #e53935;
+  transition: 0.5s;
 }
+
 a.button:active {
-  background: #a2a1a8;
+  background: #263238;
+  transition: 0.3s;
 }
 
-button-circle {
-	width: 100px;
-	height: 100px;
-	background: red;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+h1.name a:hover {
+  color: #B388FF;
+  font-size: 45px;
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
-.content {
-  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  padding: 20px;
+h1.surname a:hover {
+  color: #FFEE58;
+  font-size: 45px;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 1s;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+p.logo img:hover {
+  fill: #7B1FA2;
 }
 
 .flex-container {
@@ -59,16 +67,24 @@ button-circle {
 }
 
 
-.article {
-    text-align: left;
-}
-
-
 @media all and (min-width: 768px) {
-    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
-
+    .article {
+      -webkit-flex:5 0px;
+      flex:5 0px;
+      -webkit-order:2;
+      order:2;
+    }
 }
 
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/Raleway/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/Raleway/RalewayBold/RalewayBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Raleway/RalewayBold/RalewayBold.woff") format("woff"),
+    url("../fonts/Raleway/RalewayBold/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 * {
   box-sizing: border-box;
 }
@@ -77,9 +93,22 @@ body {
   font: 16px Arial;
   color: #d6d6d6;
 }
-h1 {
-  margin: 0 0 20px 0;
+
+img {
+  max-width: 100%;
+  max-height: auto;
 }
+
+h1 {
+  margin: 0 0 10px 0;
+  font-family: RalewayBold;
+  font-size: 36px;
+  align: center;
+  color: #FFFFFF;
+  max-width: 100%;
+  max-height: auto;
+}
+
 p {
-  margin: 0 0 20px 0;
+  margin: 30px 0 0 30px;
 }

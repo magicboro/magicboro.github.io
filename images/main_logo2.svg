@@ -1,25 +1,25 @@
-<svg width="208" height="306" viewBox="0 0 208 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="306" height="208" viewBox="0 0 306 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Vector</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(104 298)">
+<g id="Canvas" transform="translate(153 298)">
 <g id="Vector" filter="url(#filter0_d)">
-<use xlink:href="#path0_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path1_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path2_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path3_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path4_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path5_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path6_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path7_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path8_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path9_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path10_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path11_fill" transform="translate(-100 -298)" fill="#009688"/>
-<use xlink:href="#path12_fill" transform="translate(-100 -298)" fill="#009688"/>
+<use xlink:href="#path0_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path1_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path2_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path3_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path4_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path5_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path6_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path7_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path8_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path9_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path10_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path11_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
+<use xlink:href="#path12_fill" transform="matrix(1.73472e-17 -1 1 1.73472e-17 -149 -98)" fill="#009688"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-104" y="-298" width="208" height="306" color-interpolation-filters="sRGB">
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-153" y="-298" width="306" height="209" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
 <feOffset dx="0" dy="4"/>
