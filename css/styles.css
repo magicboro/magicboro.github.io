@@ -20,18 +20,17 @@ a.button {
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
   display: inline-block;
   /* padding: 25px; */
-  margin: 0 40px 0 40px;
+  margin: 20px 40px 0 40px;
+  transition: 0.5s;
 }
 
 a.button:hover {
   box-shadow: 0 0 -3px black inset;
   background: #e53935;
-  transition: 0.5s;
 }
 
 a.button:active {
   background: #263238;
-  transition: 0.3s;
 }
 
 a.button img.telegram {
@@ -46,27 +45,30 @@ a.button img.mail {
   margin: 29px 0 0 0;
 }
 
-h1.name a:hover {
-  color: #B388FF;
-  font-size: 45px;
+
+h1.name a {
   transition: 400ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 400ms;
   -webkit-transition-timing-function: ease-in-out;
 }
-
-h1.surname a:hover {
-  color: #FFEE58;
+h1.name a:hover {
+  color: #B388FF;
   font-size: 45px;
+}
+
+h1.surname a {
   transition: 1s;
   transition-timing-function: ease-in-out;
   -webkit-transition: 1s;
   -webkit-transition-timing-function: ease-in-out;
 }
 
-p.logo img:hover {
-  fill: #7B1FA2;
+h1.surname a:hover {
+  color: #FFEE58;
+  font-size: 45px;
 }
+
 
 .flex-container {
     display: -webkit-flex;
@@ -115,6 +117,11 @@ img {
   max-height: auto;
 }
 
+svg {
+  max-width: 100%;
+  max-height: auto;
+}
+
 h1 {
   margin: 0 0 10px 0;
   font-family: RalewayBold;
@@ -127,4 +134,56 @@ h1 {
 
 p {
   margin: 30px 0 0 30px;
+}
+
+p.logo svg {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+p.logo svg:hover {
+  width: 250px;
+  height: auto;
+  transform: rotate(-90deg);
+}
+p.logo svg:hover #path3_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path11_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path4_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path5_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path6_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path0_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path7_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path8_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path9_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path10_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path2_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path1_fill {
+  fill: #c62828;
+}
+p.logo svg:hover #path12_fill {
+  fill: #c62828;
 }
