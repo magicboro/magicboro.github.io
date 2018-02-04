@@ -117,11 +117,6 @@ img {
   max-height: auto;
 }
 
-svg {
-  max-width: 100%;
-  max-height: auto;
-}
-
 h1 {
   margin: 0 0 10px 0;
   font-family: RalewayBold;
@@ -136,54 +131,16 @@ p {
   margin: 30px 0 0 30px;
 }
 
-p.logo svg {
+p.logo object {
+  max-width: 100%;
+  max-height: auto;
   transition: 400ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 400ms;
   -webkit-transition-timing-function: ease-in-out;
 }
 
-p.logo svg:hover {
-  width: 250px;
-  height: auto;
+p.logo object:hover {
   transform: rotate(-90deg);
-}
-p.logo svg:hover #path3_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path11_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path4_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path5_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path6_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path0_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path7_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path8_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path9_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path10_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path2_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path1_fill {
-  fill: #c62828;
-}
-p.logo svg:hover #path12_fill {
-  fill: #c62828;
+  margin-left: -20px;
 }
