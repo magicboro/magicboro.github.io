@@ -18,27 +18,27 @@
     <link rel="icon" type="image/x-icon" href="images/favicons/favicon11.ico">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="js/animations.js"></script>
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
-<body>
+<body id="website">
 <div class="flex-container">
   <div>
-      <!-- <p class="logo"><img src="images/main_logo.svg" width="200" alt="Logo"></p> -->
-      <p class="logo"><object type="image/svg+xml" data="images/main_logo3.svg"></object></p>
+      <p class="logo" id="logo1"><img class="logo" src="images/main_logo3.svg" width="320px" onclick="myFunction()"></object></p>
+      <p class="logo" style="display:none" id="logo2"><object id="logo" type="image/svg+xml" data="images/main_logo3.svg" onclick="myFunction()"></object></p>
   </div>
-  <div>
-      <h1 class="name"><a>IGOR</a></h1>
-      <h1 class="surname"><a>BOROZDIN</a></h1>
+  <div id="fio" style="display:none">
+      <h1 class="name"><a id="name">IGOR</a></h1>
+      <h1 class="surname"><a id="surname">BOROZDIN</a></h1>
   </div>
-  <div>
-      <a class="button" href="tel:+79689015455"><img class="phone" src="images/icons/phone-receiver.svg"></a>
-      <a class="button" href="https://t.me/magicboro"><img class="telegram" src="images/icons/telegram-app.svg"></a>
+  <div style="display:none" id='contacts'>
+      <a id="phone-button" class="button" href="tel:+79689015455"><img class="phone" src="images/icons/phone-receiver.svg"></a>
+      <a id="telegram-button" class="button" href="https://t.me/magicboro"><img class="telegram" src="images/icons/telegram-app.svg"></a>
       <div>
-          <a class="button" href="mailto:igor@borozd.in?subject=Добрый день, Игорь!"><img class="mail" src="images/icons/mail.svg"></a>
+          <a id="mail-button" class="button" href="mailto:igor@borozd.in?subject=Добрый день, Игорь!"><img class="mail" src="images/icons/mail.svg"></a>
       </div>
   </div>
-
 </div>
 </body>
 </html>
