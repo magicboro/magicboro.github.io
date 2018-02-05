@@ -70,6 +70,7 @@ a.button img.mail {
 #name:hover {
   color: #B388FF;
   font-size: 45px;
+  text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
 }
 
 #surname {
@@ -87,6 +88,7 @@ a.button img.mail {
 #surname:hover {
   color: #FFEE58;
   font-size: 45px;
+  text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.12);
 }
 
 
