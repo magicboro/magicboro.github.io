@@ -5,7 +5,7 @@ $(document).ready(function(){
           $("#logo2").show();
           $("#fio").show();
           $("#contacts").show();
-          $("#website").css("background", "#263238");
+          $("#website").css("background", "#90A4AE");
         });
       }, 2000);
     $('#website').click(function(){
@@ -13,7 +13,7 @@ $(document).ready(function(){
           $("#logo2").show();
           $("#fio").show();
           $("#contacts").show();
-          $("#website").css("background", "#263238");
+          $("#website").css("background", "#90A4AE");
         });
     });
     $("#logo").on({
@@ -29,7 +29,7 @@ $(document).ready(function(){
       },
       mouseleave: function(){
         $("#website").css({
-          "background": "#263238"
+          "background": "#90A4AE"
         });
         $(this).css({
           'transform': 'rotate(0deg)',
