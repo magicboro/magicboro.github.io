@@ -170,11 +170,6 @@ p {
         animation: fadein 2s;
 }
 
-#logo:hover {
-  transform: rotate(-90deg);
-  margin-left: -20px;
-}
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
